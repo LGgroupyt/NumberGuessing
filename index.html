@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h2> Number Guessing Game</h2>
+        <h3>Rules:</h3>
+        <ul>
+            <div id="points">
+            <li>Select a number from 0 to 100</li>
+            <li>Click on the check button</li>
+            <li>It will give you a hint to guess the number correctly</li>
+            <li>Repeat the same step until you find the number</li>
+        </div>
+        </ul>
+        <input type="number" name="nu" id="n1" placeholder="Enter the number">
+        <h2 id="result">Wait for the result!!</h2>
+        <h2 id="count">0</h2>
+        <div id="base">
+            <button id="check" onclick="findnum()" type="submit">Check</button>
+            <button id="Reset" onclick="window location.reload()"type="submit">Reset</button>
+            <P>For techical reasons reset button is not working,please refresh the page</P>
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>

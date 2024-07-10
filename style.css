@@ -1,0 +1,33 @@
+body{
+    background-image: url(WhatsApp\ Image\ 2024-07-10\ at\ 12.55.36_30390ea5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+#main{
+    height: 450px;
+    width: 550px;
+    border: 5px solid white;
+    margin: 500px;
+    margin-top: 300px;
+    text-align: center;
+  
+    color:rgb(233, 123, 222);
+
+
+}
+#pon
+{
+    text-align: justify;
+    margin-left: 115px;
+}
+#sub{
+    background-color:  green;
+    color: white;
+}
+#res{
+    background-color: red;
+    color: white;   
+}
